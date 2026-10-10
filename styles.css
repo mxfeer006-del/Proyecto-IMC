@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f8f1;
+    color: #344b39;
+}
+
+header {
+    text-align: center;
+    background-color: #dcebd5;
+    padding: 25px 15px;
+}
+
+header h1 {
+    color: #386344;
+    font-size: 28px;
+}
+
+header h2 {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+header p {
+    max-width: 650px;
+    margin: 10px auto;
+}
+
+nav {
+    text-align: center;
+    background-color: #5d8056;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+section {
+    background: white;
+    margin: 18px 0;
+    padding: 20px;
+    border: 1px solid #e1e8dc;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #4c754e;
+}
+
+.consejo {
+    background-color: #edf4e8;
+    padding: 12px;
+    border-left: 4px solid #8bab7d;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+
+.galeria img {
+    width: 180px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+video {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    margin: 10px auto;
+}
+
+audio {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #dcebd5;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+@media (max-width: 600px) {
+    .galeria img {
+        width: 100%;
+        height: auto;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+}
